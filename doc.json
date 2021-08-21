@@ -1,0 +1,170 @@
+[
+  {
+    "kind": "function",
+    "name": "subtract",
+    "location": {
+      "filename": "file:///Users/ludwig/Workspace/architecter/make-calculate/subtract/mod.ts",
+      "line": 2,
+      "col": 0
+    },
+    "jsDoc": "Subtracts one number from another",
+    "functionDef": {
+      "params": [
+        {
+          "kind": "identifier",
+          "name": "x",
+          "optional": false,
+          "tsType": {
+            "repr": "number",
+            "kind": "keyword",
+            "keyword": "number"
+          }
+        },
+        {
+          "kind": "identifier",
+          "name": "y",
+          "optional": false,
+          "tsType": {
+            "repr": "number",
+            "kind": "keyword",
+            "keyword": "number"
+          }
+        }
+      ],
+      "returnType": {
+        "repr": "number",
+        "kind": "keyword",
+        "keyword": "number"
+      },
+      "isAsync": false,
+      "isGenerator": false,
+      "typeParams": []
+    }
+  },
+  {
+    "kind": "function",
+    "name": "divide",
+    "location": {
+      "filename": "file:///Users/ludwig/Workspace/architecter/make-calculate/divide/mod.ts",
+      "line": 2,
+      "col": 0
+    },
+    "jsDoc": "Divides one number by another",
+    "functionDef": {
+      "params": [
+        {
+          "kind": "identifier",
+          "name": "x",
+          "optional": false,
+          "tsType": {
+            "repr": "number",
+            "kind": "keyword",
+            "keyword": "number"
+          }
+        },
+        {
+          "kind": "identifier",
+          "name": "y",
+          "optional": false,
+          "tsType": {
+            "repr": "number",
+            "kind": "keyword",
+            "keyword": "number"
+          }
+        }
+      ],
+      "returnType": {
+        "repr": "number",
+        "kind": "keyword",
+        "keyword": "number"
+      },
+      "isAsync": false,
+      "isGenerator": false,
+      "typeParams": []
+    }
+  },
+  {
+    "kind": "function",
+    "name": "multiply",
+    "location": {
+      "filename": "file:///Users/ludwig/Workspace/architecter/make-calculate/multiply/mod.ts",
+      "line": 2,
+      "col": 0
+    },
+    "jsDoc": "Multiplies two numbers together",
+    "functionDef": {
+      "params": [
+        {
+          "kind": "identifier",
+          "name": "x",
+          "optional": false,
+          "tsType": {
+            "repr": "number",
+            "kind": "keyword",
+            "keyword": "number"
+          }
+        },
+        {
+          "kind": "identifier",
+          "name": "y",
+          "optional": false,
+          "tsType": {
+            "repr": "number",
+            "kind": "keyword",
+            "keyword": "number"
+          }
+        }
+      ],
+      "returnType": {
+        "repr": "number",
+        "kind": "keyword",
+        "keyword": "number"
+      },
+      "isAsync": false,
+      "isGenerator": false,
+      "typeParams": []
+    }
+  },
+  {
+    "kind": "function",
+    "name": "add",
+    "location": {
+      "filename": "file:///Users/ludwig/Workspace/architecter/make-calculate/add/mod.ts",
+      "line": 2,
+      "col": 0
+    },
+    "jsDoc": "Adds two numbers together",
+    "functionDef": {
+      "params": [
+        {
+          "kind": "identifier",
+          "name": "x",
+          "optional": false,
+          "tsType": {
+            "repr": "number",
+            "kind": "keyword",
+            "keyword": "number"
+          }
+        },
+        {
+          "kind": "identifier",
+          "name": "y",
+          "optional": false,
+          "tsType": {
+            "repr": "number",
+            "kind": "keyword",
+            "keyword": "number"
+          }
+        }
+      ],
+      "returnType": {
+        "repr": "number",
+        "kind": "keyword",
+        "keyword": "number"
+      },
+      "isAsync": false,
+      "isGenerator": false,
+      "typeParams": []
+    }
+  }
+]
