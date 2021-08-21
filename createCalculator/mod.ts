@@ -12,15 +12,7 @@ const calculators = {
   [Operators.SUM]: createCalculateSum,
 }
 
-export function createCalculator(calculation: Calculation): Calculator {
-  console.log('Calculation', calculation)
-  return () => ({
-    datatype: 'integer',
-    value: 4,
-  })
-}
-
-export default function makeOperator(calculation: Calculation): () => Value {
+export function createCalculator(calculation: Calculation): () => Value {
   const calculator = calculators[
     calculation.operatorType as keyof typeof calculators
   ] as (calculation: Calculation) => Calculator
