@@ -827,7 +827,7 @@ export enum WindowLoadingTrigger {
   DOM_CONTENT_LOAD_DATA = 'DOM_CONTENT_LOAD_DATA',
 }
 
-export type Calculator = () => Value
+export type Calculator = () => Promise<Value>
 
 export type AbsoluteValueCalculation = {
   operand: Calculation | NumberValue | number
@@ -942,6 +942,7 @@ export type IfCalculation = {
 
 export type InjectValueCalculation = {
   decimalPlaces?: number
+  fallback: ValueType
   keyValueSeparator?: string | RegExp
   operatorType: Operators.INJECT_VALUE
   path: Array<string>
